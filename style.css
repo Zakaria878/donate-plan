@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+body , html {
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, transparent, black),
+      url("images/headerimage.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-contant{
+    color: white;
+    text-align: center;
+}
+.header-contant h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.header-contant p{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.donate{
+    text-align: center;
+    padding-top: 80px;
+}
+.donate h1{
+    color: #121212;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.donate p{
+    color: #707070;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+.amount{
+    display: flex;
+    margin-left: 240px;
+    margin-bottom: 30px;
+}
+.card{
+    background: #FAFAFA;
+    width: 135px;
+    height: 135px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 3px;
+}
+.card h2{
+    color: #707070;
+}
+#highlight{
+    border: 3px solid green;
+    background-color: aquamarine;
+}
+#highlight h2{
+    color: green;
+}
+
+#fname{
+    width: 60%;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 250px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    border-bottom: 3px solid #DADADA;
+    margin-bottom: 40px;
+}
+#donatebtn2{
+    margin-left: 560px;
+}
+.cardp{
+    
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    text-align: justify;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+.plan{
+    display: flex;
+    margin-left: 170px;
+    margin-bottom: 30px;
+}
+.cardp h2{
+    padding-top: 20px;
+}
+.cardp p{
+    padding-top: 20px;
+}
+#color1{
+    background-color: aliceblue;
+}
+#color2{
+    background-color:  mistyrose;
+}
+#color3{
+    background-color: rgb(250, 250, 196);
+}
+.album .row{
+    display: flex;
+}
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+}
+.album .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+    width: 250px;
+    margin: 10px;
+}
