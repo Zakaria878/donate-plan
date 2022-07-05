@@ -132,11 +132,16 @@ header{
 .album .row{
     display: flex;
 }
+.col{
+    
+}
 .content-col{
-    width: 40%;
+    width: 45%;
+    padding: 10%;
 }
 .image-col{
-    width: 60%;
+    width: 55%;
+    
 }
 .album .image-gallery{
     display: flex;
