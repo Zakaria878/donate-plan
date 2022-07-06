@@ -86,15 +86,15 @@ header{
     color: green;
 }
 
-#fname{
+#amount-fild{
     width: 60%;
-    color: white;
+    background-color: white;
     padding: 14px 20px;
     margin-left: 250px;
     border: none;
     border-radius: 4px;
     text-align: center;
-    border-bottom: 3px solid #DADADA;
+    border-bottom: 3px solid gainsboro;
     margin-bottom: 40px;
 }
 #donatebtn2{
@@ -186,7 +186,15 @@ header{
     border-radius: 0 5px 5px 0;
     color: #FAFAFA;
  }
- .footd{
-    height: 80px;
-    background-color: #121212;
+ .footer {
+    width: 100%;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ .footer h2{
+    padding-bottom: 15px;
+    color: orangered;
+    font-family: 'Lobster', cursive;
  }
